@@ -52,31 +52,32 @@
                 <hr>                   
                 
                 <h2>Formulário</h2><hr>
-
-                <fieldset>
-                    <legend>Contato:</legend>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Contato:</legend>
+                        <div class="row">
+                            <label>Nome:</label><input type="text">
+                        </div>
+                        <div class="row">
+                            <label>E-mail:</label><input type="email">
+                        </div>
+                        <div class="row">
+                            <label>Assunto: </label> <input type="text" name="subject">
+                        </div><br>
+                        <div class="row">
+                            <label>Mensagem:</label>
+                            <textarea rows="5" cols="45" name="message"></textarea>
+                        </div>
+                    </fieldset>
                     <div class="row">
-                        <label>Nome:</label><input type="text">
-                    </div>
-                    <div class="row">
-                        <label>E-mail:</label><input type="email">
-                    </div>
-                    <div class="row">
-                        <label>Assunto: </label> <input type="text" name="subject">
-                    </div><br>
-                    <div class="row">
-                        <label>Mensagem:</label>
-                        <textarea rows="5" cols="45" name="message"></textarea>
-                    </div>
-                </fieldset>
-                <div class="row">
-                    <button type="reset">
-                       Limpar   
-                    </button>
-                    <button type="submit">
-                       Enviar formulário
-                    </button>
-                 </div>
+                        <button type="reset">
+                           Limpar   
+                        </button>
+                        <button type="submit">
+                           Enviar formulário
+                        </button>
+                     </div>
+                </form>
                 <!-- Aqui vai o seu conteúdo -->
             </div>
     
