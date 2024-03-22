@@ -12,7 +12,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: rgb(161, 110, 161);
+    background-color: rgb(170, 123, 170);
 }
 .main {
     display: flex;
@@ -29,6 +29,7 @@ body {
     min-height: 150px;
 }
 .content {
+    background-color: rgb(161, 110, 161);
     min-height: 300px;
     padding: 20px;
     color: white;
